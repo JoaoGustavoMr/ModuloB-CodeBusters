@@ -2,3 +2,8 @@ ESSE É O MÓDULO B
 RODE O CÓDIGO transmissor.ino na ARDUINO IDE, DEPOIS NO VS CODE RODE O atv.py
 o arduino envia as informações de temperatura e umidade, o programa python recebe analisa e gera gráficos,
 arquivos csv e até arquivos quando tem a presença de temperaturas atípicas e anomalias
+
+Não conseguimos, fazer o código do receptor funcionar, entao a lógica é, o transmissor.ino recebe
+as temperaturas e umidades e da nomonitor serial, e o arquivo atv.py le os dados do arduino e gera gráficos
+com as temperaturas e umidades, e esses dados são exportados no excel dados_sensores,
+e quando aparece uma temperatura ou umidade atípica ou difirente do normal ela vai para o arquivo anomalias
