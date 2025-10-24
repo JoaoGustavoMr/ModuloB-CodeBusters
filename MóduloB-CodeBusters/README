@@ -1,0 +1,4 @@
+ESSE É O MÓDULO B 
+RODE O CÓDIGO transmissor.ino na ARDUINO IDE, DEPOIS NO VS CODE RODE O atv.py
+o arduino envia as informações de temperatura e umidade, o programa python recebe analisa e gera gráficos,
+arquivos csv e até arquivos quando tem a presença de temperaturas atípicas e anomalias
